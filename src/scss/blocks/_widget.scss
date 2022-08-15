@@ -1,0 +1,22 @@
+.widget {
+    &:first-child {
+        margin-top: 60px;
+    }
+    &:last-child {
+        margin-bottom: 30px;
+    }
+}
+.widget__title {
+    padding: 30px 70px;
+    width: 270px;
+    height: 70px;
+    border: 1px solid #dde2e7;
+    border-radius: 4px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+.pagination {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    a {
+
+    }
+}
+
+
+.pagination__text-link, a.pagination__text-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(255, 0, 0);
+    }
+}
+
+.pagination__current {
+    display: flex;
+    column-gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.pagination__current-active {
+    color: rgb(255, 0, 0);
+}
+
+.pagination__current-link {
+    color: #000000;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+    }
+}
